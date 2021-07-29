@@ -10,5 +10,10 @@ const  text=()=>{
 
 btn_toggle.onclick = () => {
     
+    if(btn_toggle.innerHTML== "dis cal"){
+        btn_toggle.innerHTML="dis anthor"
+    }else{
+        btn_toggle.innerHTML ="dis cal"
+    }
 }
 
